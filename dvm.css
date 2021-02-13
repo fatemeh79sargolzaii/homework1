@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(231, 177,195) ;
+}
+img{
+    border-radius: 99px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+h1,h3{
+   font-family:italic;
+    text-align: center; 
+}
+ 
+ .one,.three,.five {
+   
+    border: 2px solid ;
+    width: 80%;
+    float: right;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px; 
+}
+.two,.four,.six{
+    border: 2px solid ;
+    width:80%;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p{
+    direction: rtl;
+   
+}
+input{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    margin-top: 5px;
+    background-color: rgb(224, 135, 194);
+    border-radius: 5px;
+    outline: none;
+}
+.one,.four,.five{
+    background-color: rgb(245, 51, 148);
+    font: bold;
+
+}
+.two,.three,.six{
+    background-color: rgb(224, 195, 100);
+    font: bold;
+}
